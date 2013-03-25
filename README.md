@@ -36,7 +36,7 @@ The official repository for this code is <https://github.com/rocketfuel-com/smar
 Principal Authors
 -----------------
 
-* Coding: Mark T, Randy H, Jason H, and soon other contributors like you!
+* Coding: Mark T, Jason H, and soon other contributors like you?
 * Documentation: Roland S, Jon T, Mark T
 
 
