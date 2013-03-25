@@ -1,9 +1,14 @@
 <script type = "text/javascript">
 // Rocket Fuel Smartitioner
-// Deterministic Pixel Rotation Script v2013-01-14 
-// (c) 2011-2013 by Rocket Fuel, Inc. All Rights Reserved
-// Contact enterprise@rocketfuel.com for more information
-// www.rocketfuel.com
+// Deterministic Pixel Rotation Script
+//
+// (C) 2011-2013 BY ROCKET FUEL, INC. ALL RIGHTS RESERVED
+// THIS PROGRAM IS PROVIDED UNDER THE TERMS OF THE ATTACHED
+// ECLIPSE PUBLIC LICENSE ("AGREEMENT"). ANY USE, REPRODUCTION
+// OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S
+// ACCEPTANCE OF THIS AGREEMENT.
+//
+// http://www.rocketfuel.com/
 if (!window.ROT) {
 	var ROT = {};
 }
