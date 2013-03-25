@@ -38,10 +38,12 @@ b) its license agreement:
     ii) effectively excludes on behalf of all Contributors all liability for damages, including direct, indirect, special, incidental and consequential damages, such as lost profits; 
     iii) states that any provisions which differ from this Agreement are offered by that Contributor alone and not by any other party; and 
     iv) states that source code for the Program is available from such Contributor, and informs licensees how to obtain it in a reasonable manner on or through a medium customarily used for software exchange.
-When the Program is made available in source code form:
 
+When the Program is made available in source code form:
+xs
 a) it must be made available under this Agreement; and 
 b) a copy of this Agreement must be included with each copy of the Program.
+
 Contributors may not remove or alter any copyright notices contained within the Program.
 Each Contributor must identify itself as the originator of its Contribution, if any, in a manner that reasonably allows subsequent Recipients to identify the originator of the Contribution.
 
