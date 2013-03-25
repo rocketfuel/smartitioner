@@ -19,8 +19,9 @@ if (!window.ROT) {
 // = Start customizing here =
 // ==========================
 	ROT.pixels = [
-	'http://www.vinq.com/1', // TODO: support either .js or image pixels
-	'http://www.vinq.com/2' // IMPORTANT: no final comma on this list!
+	'http://www.example1.com/pixel1', // TODO: support either .js or image pixels
+	// 'http://www.example3.com/pixel3', // add additional partners as you please
+	'http://www.example2.com/pixel2' // IMPORTANT: no final comma on this list!
 	];
 	ROT.weights = [1, 1]; // IMPORTANT: match the number of weights to the number of pixels
 // =========================
