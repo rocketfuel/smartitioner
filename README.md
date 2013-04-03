@@ -23,15 +23,15 @@ Installation and Usage
 ----------------------
 
 1. Open the `rocketfuel_smartitioner.js` file
-2. Replace `[INSERT_FIRST_COMPETITOR_URL_HERE]` with the pixel tracking URL from the competitor without "http:" or "https:" appended to it.
-3. Replace `[INSERT_ROCKETFUEL_URL_HERE]` with the pixel tracking URL you have received from Rocket Fuel without "http:" or "https:" appended to it.
+2. Replace `[INSERT_FIRST_COMPETITOR_URL_HERE]` with the pixel tracking URL from the competitor without "http:" or "https:".
+3. Replace `[INSERT_ROCKETFUEL_URL_HERE]` with the pixel tracking URL you have received from Rocket Fuel without "http:" or "https:".
 4. Optional: add additional competitors by uncommenting (and duplicating if needed) the line in between the first competitor and Rocket Fuel.
 5. Optional: Replace the numbers in `ROT.weights = ` with weights for the splitting ratio. For example:
     - A 50%-50% test would have `ROT.weights = [1, 1];`
     - A 90%-10% test (e.g. incumbent against new entrant) would have `ROT.weights = [9, 1];`.
     - A three-way 25%-50%-25% test would have `ROT.weights = [1, 2, 1];`.
     - You can use any integer value as long as there are exactly as many values as there are pixels defined in `ROT.pixels = [ ]`
-6. Include the file in a header or footer of the web site, so that it fires on every page.
+6. Copy and paste the script into the all pages except conversion pages.
 
 
 Questions and Feedback

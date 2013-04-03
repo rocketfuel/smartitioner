@@ -40,7 +40,7 @@ b) its license agreement:
     iv) states that source code for the Program is available from such Contributor, and informs licensees how to obtain it in a reasonable manner on or through a medium customarily used for software exchange.
 
 When the Program is made available in source code form:
-xs
+
 a) it must be made available under this Agreement; and 
 b) a copy of this Agreement must be included with each copy of the Program.
 
