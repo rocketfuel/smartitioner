@@ -44,7 +44,7 @@ Principal Authors
 -----------------
 
 * Coding: Mark T, Nikolai R, Jason H, and soon other contributors like you?
-* Documentation: Roland S, Nikolai R, Jon T, Mark T, Jason H
+* Documentation: Roland S, Nikolai R, Jon T, Mark T, Jason H, Randy H
 
 
 About Rocket Fuel
