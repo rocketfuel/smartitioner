@@ -14,14 +14,16 @@ if (!window.ROT) {
 }
 (function() {
 
+var protocol = "https:" == document.location.protocol ? 'https:' : 'http:';
+var cbuster = new Date().getTime() + Math.random().toString().substr(2);
 
 // ==========================
 // = Start customizing here =
 // ==========================
 	ROT.pixels = [
-	'http://www.example1.com/pixel1', // TODO: support either .js or image pixels
-	// 'http://www.example3.com/pixel3', // add additional partners as you please
-	'http://www.example2.com/pixel2' // IMPORTANT: no final comma on this list!
+	protocol+'[INSERT_FIRST_COMPETITOR_URL_HERE]', // TODO: support either .js or image pixels, no http: or https: on the URL
+	// protocol+'//www.example3.com/pixel3', // add additional partners as you please
+	protocol+'[INSERT_LAST_COMPETITOR_URL_HERE]'+cbuster // IMPORTANT: no final comma on this list!
 	];
 	ROT.weights = [1, 1]; // IMPORTANT: match the number of weights to the number of pixels
 // =========================
@@ -43,7 +45,6 @@ if (!window.ROT) {
 		ed.setDate(ed.getDate() + eds);
 		var cv = escape(v) + ((eds == null) ? "" : "; expires=" + ed.toUTCString());
 		var str = cn + "=" + cv;
-		console.log("SET COOKIE: " + str); // TODO: remove this line
 		document.cookie = str;
 	};
 	ROT.gc = function(cn) {
