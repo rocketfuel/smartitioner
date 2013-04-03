@@ -21,9 +21,9 @@ var cbuster = new Date().getTime() + Math.random().toString().substr(2);
 // = Start customizing here =
 // ==========================
 	ROT.pixels = [
-	protocol+'[INSERT_FIRST_COMPETITOR_URL_HERE]'+cbuster, // TODO: support either .js or image pixels, no http: or https: on the URL
+	protocol+'[INSERT_FIRST_COMPETITOR_URL_HERE]', 
 	// protocol+'//www.example3.com/pixel3', // add additional partners as you please
-	protocol+'[INSERT_LAST_COMPETITOR_URL_HERE]'+cbuster // IMPORTANT: no final comma on this list!
+	protocol+'[INSERT_ROCKETFUEL_URL_HERE]'+cbuster // IMPORTANT: no final comma on this list!
 	];
 	ROT.weights = [1, 1]; // IMPORTANT: match the number of weights to the number of pixels
 // =========================
