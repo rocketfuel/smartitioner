@@ -21,7 +21,7 @@ var cbuster = new Date().getTime() + Math.random().toString().substr(2);
 // = Start customizing here =
 // ==========================
 	ROT.pixels = [
-	protocol+'[INSERT_FIRST_COMPETITOR_URL_HERE]', 
+	protocol+'[INSERT_FIRST_COMPETITOR_URL_HERE]',
 	// protocol+'//www.example.com/pixit cel3', // add additional partners as you please
 	protocol+'[INSERT_ROCKETFUEL_URL_HERE]'+cbuster // IMPORTANT: no final comma on this list!
 	];
@@ -32,10 +32,10 @@ var cbuster = new Date().getTime() + Math.random().toString().substr(2);
 
 	ROT.hc = function(s) {
 		var h = 0;
-		if (s.length == 0) return h;
+		if (s.length === 0) return h;
 		for (i = 0; i < s.length; i++) {
-			char = s.charCodeAt(i);
-			h = ((h << 5) - h) + char;
+			character = s.charCodeAt(i);
+			h = ((h << 5) - h) + character;
 			h = h & h;
 		}
 		return h;
@@ -43,7 +43,7 @@ var cbuster = new Date().getTime() + Math.random().toString().substr(2);
 	ROT.sc = function(cn, v, eds) {
 		var ed = new Date();
 		ed.setDate(ed.getDate() + eds);
-		var cv = escape(v) + ((eds == null) ? "" : "; expires=" + ed.toUTCString());
+		var cv = escape(v) + ((eds === null) ? "" : "; expires=" + ed.toUTCString());
 		var str = cn + "=" + cv;
 		document.cookie = str;
 	};
@@ -59,7 +59,7 @@ var cbuster = new Date().getTime() + Math.random().toString().substr(2);
 			}
 		}
 	};
-	var pid = parseInt(ROT.gc("rotp"));
+	var pid = parseInt(ROT.gc("rotp"),10);
 	if (isNaN(pid) || pid < 0 || pid > Object.keys(ROT.pixels).length - 1) {
 		// Hash user agent and plugins count to choose a deterministic pid
 		var total = 0;
@@ -70,10 +70,10 @@ var cbuster = new Date().getTime() + Math.random().toString().substr(2);
 		var hash = ((ROT.hc(str) * 71) % 131) % total;
 		total = 0;
 		var x = 0;
-		for (var i = 0; i < ROT.weights.length; i++) {
-			total = total + ROT.weights[i];
+		for (var j = 0; j < ROT.weights.length; j++) {
+			total = total + ROT.weights[j];
 			if (total > hash) {
-				pid = i;
+				pid = j;
 				break;
 			}
 		}

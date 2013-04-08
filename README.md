@@ -1,26 +1,34 @@
-
 ROCKET FUEL SMARTITIONER
-========================
 
 
-Introduction
-------------
+OVERVIEW
+========
 
-Rocket Fuel Smartitioner helps to randomly split the retargeting pool for a web property between different DSPs, for easy and fair retargeting tests in Internet advertising.
+## Why Smartitioner ##
+
+Rocket Fuel Smartitioner helps to randomly split the retargeting pool for a web property between different DSPs, for easy and fair retargeting tests in Internet advertising. 
+
+In the many bake-offs that Rocket Fuel has participated in and won over the years, we have found that a randomly split retargeting pool provides a much more level playing field for testing providers against each other than splits by DMA, by product or by other methods.
+
+We have contributed this script to the open-source community as the best documented version ever, one that is incredibly easy to set up and that is guaranteed to always contain the latest code developments and documentation updates.
+
+With the source code available in all openness, any competitor in a bake-off can check that the splitting of the retargeting pool is absolutely fair. At the same time, the open source license assures that all developers having worked on this script get the proper credit.
+
+## What Smartitioner does ##
 
 Smartitioner is a piece of JavaScript code that can easily be configured for the DSPs and advertising networks that the advertiser works with, and then plugged into the advertiser's website. 
 
 Once a consumer lands on the site, the script we write into the pixel splits the audience out evenly (or in any given weight configuration) between two or more DSPs or advertising networks on the plan.
 
+## How Smartitioner works ##
+
 The script itself reads and writes a cookie in the advertiser's domain, to keep track of which partner this customer has been shared with.  By using a cookie to store this, no partner needs to see the retargeting traffic associated with the other partner, which helps ensure a fair test.
 
-This same logic is applied on all pages throughout the site so there is no overlap of audiences. In other words, once a cookie is dropped and assigned to a partner it sticks and remains with that partner throughout the flight of the campaign-regardless of return visitation or multiple pages viewed.
-
-We have seen great success by employing this approach to cleanly segment out engaged audiences and identify clear top performers. We are hereby contributing this script to the open-source community.
+This same logic is applied on all pages throughout the site so there is no overlap of audiences. In other words, once a cookie is dropped and assigned to a partner it sticks and remains with that partner throughout the flight of the campaign--regardless of return visitation or multiple pages viewed.
 
 
-Installation and Usage
-----------------------
+INSTALLATION AND USAGE
+======================
 
 1. Open the `rocketfuel_smartitioner.js` file
 2. Replace `[INSERT_FIRST_COMPETITOR_URL_HERE]` with the pixel tracking URL from the competitor without "http:" or "https:".
@@ -31,38 +39,42 @@ Installation and Usage
     - A 90%-10% test (e.g. incumbent against new entrant) would have `ROT.weights = [9, 1];`.
     - A three-way 25%-50%-25% test would have `ROT.weights = [1, 2, 1];`.
     - You can use any integer value as long as there are exactly as many values as there are pixels defined in `ROT.pixels = [ ]`
-6. Copy and paste the script into the all pages except conversion pages.
+6. Copy and paste the script into all pages except conversion pages.
 
 
-Questions and Feedback
-----------------------
+QUESTIONS AND FEEDBACK
+======================
 
-The official repository for this code is <https://github.com/rocketfuel/smartitioner>
+The official repository for this code is <https://github.com/rocketfuel/smartitioner>. Of course you can also ask your Rocket Fuel account manager, if you work with us.
 
 
-Principal Authors
------------------
+PRINCIPAL AUTHORS
+=================
 
 * Coding: Mark T, Nikolai R, Jason H, and soon other contributors like you?
 * Documentation: Roland S, Nikolai R, Jon T, Mark T, Jason H, Randy H
 
 
-About Rocket Fuel
------------------
+ABOUT ROCKET FUEL
+=================
 
 Rocket Fuel is a digital-advertising technology company in Silicon Valley that has grown rocket-fast since its founding in 2008. The company is a leader in the emerging phenomenon of scientific advertising online. It combines a world-class engineering team with the industry's most productive sales and delivery teams. Its customers are some of the world’s most successful brands. Rocket Fuel serves them from its offices in 15 cities around the globe including New York, London, Toronto, and Hamburg.
 
 In 2008 a group of data savants hailing from the biggest digital darlings came together with one simple mission: to make marketing easier and more effective for brands, and to give consumers a unique and relevant online experience. Four years later, we’re the fastest growing advertising technology company in Silicon Valley, and number 4 in Forbes’ Most Promising Companies in America. Hard work has paid off!
 
+
+LIKE AD TECH? JOIN US!
+======================
+
 We're not just hiring, we're hiring the best! Got what it takes? Join us: <http://rocketfuel.com/careers>
 
 
-License
--------
+LICENSE
+=======
 
-COPYRIGHT (C) ROCKET FUEL INC. 2011-2013 - ALL RIGHTS RESERVED
+COPYRIGHT (C) ROCKET FUEL INC. 2011-2013 - ALL RIGHTS RESERVED. 
 
-THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THE ATTACHED ECLIPSE PUBLIC LICENSE ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
+THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THE ATTACHED ECLIPSE PUBLIC LICENSE ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT. 
 
 
 
