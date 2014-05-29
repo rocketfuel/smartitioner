@@ -40,6 +40,9 @@ INSTALLATION AND USAGE
     - A three-way 25%-50%-25% test would have `ROT.weights = [1, 2, 1];`.
     - You can use any integer value as long as there are exactly as many values as there are pixels defined in `ROT.pixels = [ ]`
 6. Copy and paste the script into all pages except conversion pages.
+7. IMPORTANT: ensure that each of the competitors _only_ gets data via the Smartitioner script:
+    - Remove all pixels for each of the competitors from your Web site
+    - If you use a tag manager, ensure that each competitor is removed from that as well.
 
 
 QUESTIONS AND FEEDBACK
@@ -60,7 +63,7 @@ ABOUT ROCKET FUEL
 
 Rocket Fuel is a digital-advertising technology company in Silicon Valley that has grown rocket-fast since its founding in 2008. The company is a leader in the emerging phenomenon of scientific advertising online. It combines a world-class engineering team with the industry's most productive sales and delivery teams. Its customers are some of the world’s most successful brands. Rocket Fuel serves them from its offices in 15 cities around the globe including New York, London, Toronto, and Hamburg.
 
-In 2008 a group of data savants hailing from the biggest digital darlings came together with one simple mission: to make marketing easier and more effective for brands, and to give consumers a unique and relevant online experience. Four years later, we’re the fastest growing advertising technology company in Silicon Valley, and number 4 in Forbes’ Most Promising Companies in America. Hard work has paid off!
+In 2008 a group of data savants hailing from the biggest digital darlings came together with one simple mission: to make marketing easier and more effective for brands, and to give consumers a unique and relevant online experience. Four years later, we’re the fastest growing advertising technology company in Silicon Valley, and number 4 in Forbes’ Most Promising Companies in America, and one of the fastest growing listed Silicon Valley companies ever (NASDAQ:FUEL). Hard work has paid off!
 
 
 LIKE AD TECH? JOIN US!
@@ -72,7 +75,7 @@ We're not just hiring, we're hiring the best! Got what it takes? Join us: <http:
 LICENSE
 =======
 
-COPYRIGHT (C) ROCKET FUEL INC. 2011-2013 - ALL RIGHTS RESERVED. 
+COPYRIGHT (C) ROCKET FUEL INC. 2011-2014 - ALL RIGHTS RESERVED. 
 
 THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THE ATTACHED ECLIPSE PUBLIC LICENSE ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT. 
 
