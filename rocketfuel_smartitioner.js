@@ -1,5 +1,3 @@
-<script type = "text/javascript">
-// Rocket Fuel Smartitioner
 // Deterministic Pixel Rotation Script
 //
 // (C) 2011-2013 BY ROCKET FUEL, INC. ALL RIGHTS RESERVED
@@ -88,4 +86,3 @@ var cbuster = new Date().getTime() + Math.random().toString().substr(2);
 	}
 
 })();
-</script>
